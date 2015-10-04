@@ -1,0 +1,228 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulp' ]
+2 info using npm@2.14.4
+3 info using node@v0.10.32
+4 verbose install initial load of /Users/jamesduffy/Desktop/workflows/package.json
+5 warn package.json workflows@0.0.1 No license field.
+6 verbose installManyTop reading scoped package data from /Users/jamesduffy/Desktop/workflows/node_modules/gulp/package.json
+7 verbose installManyTop reading scoped package data from /Users/jamesduffy/Desktop/workflows/node_modules/gulp-coffee/package.json
+8 verbose installManyTop reading scoped package data from /Users/jamesduffy/Desktop/workflows/node_modules/gulp-util/package.json
+9 info package.json gulp-coffee@2.3.1 No license field.
+10 verbose readDependencies loading dependencies from /Users/jamesduffy/Desktop/workflows/package.json
+11 verbose install gulp is installed as 3.9.0
+12 silly cache add args [ 'gulp', null ]
+13 verbose cache add spec gulp
+14 silly cache add parsed spec { raw: 'gulp',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'gulp',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed gulp@*
+16 verbose addNamed "*" is a valid semver range for gulp
+17 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+18 silly mapToRegistry name gulp
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/gulp
+22 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/gulp
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 17:30:54
+26 verbose request id 20e2811fe993cf6f
+27 verbose etag "3910BZ9CLH9ERKXVLOXWO3FVC"
+28 http request GET https://registry.npmjs.org/gulp
+29 http 304 https://registry.npmjs.org/gulp
+30 silly get cb [ 304,
+30 silly get   { date: 'Sun, 04 Oct 2015 22:30:55 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     'cache-control': 'max-age=60',
+30 silly get     etag: '"3910BZ9CLH9ERKXVLOXWO3FVC"',
+30 silly get     age: '13',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-dfw1835-DFW',
+30 silly get     'x-cache': 'HIT',
+30 silly get     'x-cache-hits': '16',
+30 silly get     'x-timer': 'S1443997855.505403,VS0,VE0',
+30 silly get     vary: 'Accept' } ]
+31 verbose etag https://registry.npmjs.org/gulp from cache
+32 verbose get saving gulp to /Users/jamesduffy/.npm/registry.npmjs.org/gulp/.cache.json
+33 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+34 silly addNameRange versions [ 'gulp',
+34 silly addNameRange   [ '0.0.1',
+34 silly addNameRange     '0.0.2',
+34 silly addNameRange     '0.0.3',
+34 silly addNameRange     '0.0.4',
+34 silly addNameRange     '0.0.5',
+34 silly addNameRange     '0.0.7',
+34 silly addNameRange     '0.0.8',
+34 silly addNameRange     '0.0.9',
+34 silly addNameRange     '0.1.0',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.2.1',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '2.0.1',
+34 silly addNameRange     '2.1.0',
+34 silly addNameRange     '2.2.0',
+34 silly addNameRange     '2.3.0',
+34 silly addNameRange     '2.4.0',
+34 silly addNameRange     '2.4.1',
+34 silly addNameRange     '2.6.0',
+34 silly addNameRange     '2.6.1',
+34 silly addNameRange     '2.7.0',
+34 silly addNameRange     '3.0.0',
+34 silly addNameRange     '3.1.1',
+34 silly addNameRange     '3.1.2',
+34 silly addNameRange     '3.1.3',
+34 silly addNameRange     '3.1.4',
+34 silly addNameRange     '3.2.0',
+34 silly addNameRange     '3.2.1',
+34 silly addNameRange     '3.2.2',
+34 silly addNameRange     '3.2.3',
+34 silly addNameRange     '3.2.4',
+34 silly addNameRange     '3.2.5',
+34 silly addNameRange     '3.3.0',
+34 silly addNameRange     '3.3.1',
+34 silly addNameRange     '3.3.2',
+34 silly addNameRange     '3.3.4',
+34 silly addNameRange     '3.4.0',
+34 silly addNameRange     '3.5.0',
+34 silly addNameRange     '3.5.1',
+34 silly addNameRange     '3.5.2',
+34 silly addNameRange     '3.5.5',
+34 silly addNameRange     '3.5.6',
+34 silly addNameRange     '3.6.0',
+34 silly addNameRange     '3.6.1',
+34 silly addNameRange     '3.6.2',
+34 silly addNameRange     '3.7.0',
+34 silly addNameRange     '3.8.0',
+34 silly addNameRange     '3.8.1',
+34 silly addNameRange     '3.8.2',
+34 silly addNameRange     '3.8.3',
+34 silly addNameRange     '3.8.4',
+34 silly addNameRange     '3.8.5',
+34 silly addNameRange     '3.8.6',
+34 silly addNameRange     '3.8.7',
+34 silly addNameRange     '3.8.8',
+34 silly addNameRange     '3.8.9',
+34 silly addNameRange     '3.8.10',
+34 silly addNameRange     '3.8.11',
+34 silly addNameRange     '3.9.0' ] ]
+35 silly addNamed gulp@3.9.0
+36 verbose addNamed "3.9.0" is a plain semver version for gulp
+37 silly cache afterAdd gulp@3.9.0
+38 verbose afterAdd /Users/jamesduffy/.npm/gulp/3.9.0/package/package.json not in flight; writing
+39 verbose afterAdd /Users/jamesduffy/.npm/gulp/3.9.0/package/package.json written
+40 silly install resolved [ { name: 'gulp',
+40 silly install resolved     description: 'The streaming build system',
+40 silly install resolved     version: '3.9.0',
+40 silly install resolved     homepage: 'http://gulpjs.com',
+40 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+40 silly install resolved     author:
+40 silly install resolved      { name: 'Fractal',
+40 silly install resolved        email: 'contact@wearefractal.com',
+40 silly install resolved        url: 'http://wearefractal.com/' },
+40 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+40 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+40 silly install resolved     bin: { gulp: './bin/gulp.js' },
+40 silly install resolved     man: [ 'gulp.1' ],
+40 silly install resolved     dependencies:
+40 silly install resolved      { archy: '^1.0.0',
+40 silly install resolved        chalk: '^1.0.0',
+40 silly install resolved        deprecated: '^0.0.1',
+40 silly install resolved        'gulp-util': '^3.0.0',
+40 silly install resolved        interpret: '^0.6.2',
+40 silly install resolved        liftoff: '^2.1.0',
+40 silly install resolved        minimist: '^1.1.0',
+40 silly install resolved        orchestrator: '^0.3.0',
+40 silly install resolved        'pretty-hrtime': '^1.0.0',
+40 silly install resolved        semver: '^4.1.0',
+40 silly install resolved        tildify: '^1.0.0',
+40 silly install resolved        v8flags: '^2.0.2',
+40 silly install resolved        'vinyl-fs': '^0.3.0' },
+40 silly install resolved     devDependencies:
+40 silly install resolved      { coveralls: '^2.7.0',
+40 silly install resolved        'graceful-fs': '^3.0.0',
+40 silly install resolved        istanbul: '^0.3.0',
+40 silly install resolved        jscs: '~1.12.0',
+40 silly install resolved        jshint: '^2.5.0',
+40 silly install resolved        'jshint-stylish': '^1.0.0',
+40 silly install resolved        'marked-man': '^0.1.3',
+40 silly install resolved        mkdirp: '^0.5.0',
+40 silly install resolved        mocha: '^2.0.1',
+40 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+40 silly install resolved        q: '^1.0.0',
+40 silly install resolved        rimraf: '^2.2.5',
+40 silly install resolved        should: '^5.0.1' },
+40 silly install resolved     scripts:
+40 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+40 silly install resolved        lint: 'jshint lib bin test index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules && jscs lib bin test index.js',
+40 silly install resolved        test: 'npm run-script lint && mocha --reporter spec',
+40 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+40 silly install resolved     engines: { node: '>= 0.9' },
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     gitHead: '657213a52d5e9c19b85df6a42f76341a98c08ae8',
+40 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+40 silly install resolved     _id: 'gulp@3.9.0',
+40 silly install resolved     _shasum: 'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a',
+40 silly install resolved     _from: 'gulp@*',
+40 silly install resolved     _npmVersion: '2.8.3',
+40 silly install resolved     _nodeVersion: '0.10.36',
+40 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+40 silly install resolved     maintainers: [ [Object], [Object] ],
+40 silly install resolved     dist:
+40 silly install resolved      { shasum: 'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a',
+40 silly install resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz' },
+40 silly install resolved     directories: {},
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz',
+40 silly install resolved     readme: 'ERROR: No README data found!' } ]
+41 info install gulp@3.9.0 into /Users/jamesduffy/Desktop/workflows
+42 info installOne gulp@3.9.0
+43 verbose installOne of gulp to /Users/jamesduffy/Desktop/workflows not in flight; installing
+44 verbose lock using /Users/jamesduffy/.npm/_locks/gulp-d7d6219a3f13de48.lock for /Users/jamesduffy/Desktop/workflows/node_modules/gulp
+45 silly install write writing gulp 3.9.0 to /Users/jamesduffy/Desktop/workflows/node_modules/gulp
+46 verbose unbuild node_modules/gulp
+47 info preuninstall gulp@3.9.0
+48 info uninstall gulp@3.9.0
+49 verbose unbuild rmStuff gulp@3.9.0 from /Users/jamesduffy/Desktop/workflows/node_modules
+50 silly gentlyRm /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp is being gently removed
+51 silly gentlyRm verifying /Users/jamesduffy/Desktop/workflows is an npm working directory
+52 silly gentlyRm containing path /Users/jamesduffy/Desktop/workflows is under npm's control, in /Users/jamesduffy/Desktop/workflows
+53 silly gentlyRm deletion target /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp is under /Users/jamesduffy/Desktop/workflows
+54 verbose gentlyRm vacuuming from /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp up to /Users/jamesduffy/Desktop/workflows
+55 silly vacuum-fs removing /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp
+56 verbose unlock done using /Users/jamesduffy/.npm/_locks/gulp-d7d6219a3f13de48.lock for /Users/jamesduffy/Desktop/workflows/node_modules/gulp
+57 verbose stack Error: EACCES, unlink '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp'
+58 verbose cwd /Users/jamesduffy/Desktop/workflows
+59 error Darwin 14.5.0
+60 error argv "node" "/usr/local/bin/npm" "install" "gulp"
+61 error node v0.10.32
+62 error npm  v2.14.4
+63 error path /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp
+64 error code EACCES
+65 error errno 3
+66 error Error: EACCES, unlink '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp'
+66 error  { [Error: EACCES, unlink '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp']
+66 error   errno: 3,
+66 error   code: 'EACCES',
+66 error   path: '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp' }
+67 error Please try running this command again as root/Administrator.
+68 verbose exit [ 3, true ]
+69 verbose unbuild node_modules/gulp
+70 info preuninstall gulp@3.9.0
+71 info uninstall gulp@3.9.0
+72 verbose unbuild rmStuff gulp@3.9.0 from /Users/jamesduffy/Desktop/workflows/node_modules
+73 silly gentlyRm /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp is being gently removed
+74 silly gentlyRm verifying /Users/jamesduffy/Desktop/workflows is an npm working directory
+75 silly gentlyRm containing path /Users/jamesduffy/Desktop/workflows is under npm's control, in /Users/jamesduffy/Desktop/workflows
+76 silly gentlyRm deletion target /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp is under /Users/jamesduffy/Desktop/workflows
+77 verbose gentlyRm vacuuming from /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp up to /Users/jamesduffy/Desktop/workflows
+78 silly vacuum-fs removing /Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp
+79 error error rolling back Error: EACCES, unlink '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp'
+79 error error rolling back  { [Error: EACCES, unlink '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp']
+79 error error rolling back   errno: 3,
+79 error error rolling back   code: 'EACCES',
+79 error error rolling back   path: '/Users/jamesduffy/Desktop/workflows/node_modules/.bin/gulp' }
