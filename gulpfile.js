@@ -1,7 +1,9 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     coffee = require('gulp-coffee'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    browserify = require('gulp-browserify');
+    // no need to require jquery or mustache
 
 var coffeeSources = ['components/coffee/tagline.coffee'];
 var jsSources = [
@@ -22,5 +24,6 @@ gulp.task('coffee', function() {
 gulp.task('js', function () {
     gulp.src(jsSources)
       .pipe(concat('script.js'))  // script.js comes from index.html, script tag, line 107
+      .pipe(browserify())
       .pipe(gulp.dest('builds/development/js'))
 });
